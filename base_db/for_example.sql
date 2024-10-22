@@ -13,7 +13,7 @@ select distinct category from orders
 select 
 count(*),
 count(distinct o.order_id)
-from orders o left join "returns" r on o.order_id = r.order_id  
+from orders o left join "returns" r on o.order_id = r.order_id 
 
 
 select 
